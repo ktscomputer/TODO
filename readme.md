@@ -22,7 +22,7 @@ A simple To-Do application built with HTML, CSS, and JavaScript. This app allows
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   https://github.com/ktscomputer/TODO.git
    cd todo-app
    ```
 
@@ -79,4 +79,3 @@ For any questions or issues, you can reach out to [Irshad K T](irshad2934@gmail.
 
 Feel free to adjust the sections according to your project's specifics and personal preferences.
 
-https://github.com/ktscomputer/TODO.git
