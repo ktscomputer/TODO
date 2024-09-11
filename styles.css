@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif,serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 450px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.todo-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#add-btn {
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-end;
+}
+
+li button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: #c82333;
+}
+
+
+/* Buttons Container Styles */
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#edit-btn, #delete-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#edit-btn:hover {
+    background-color: #0056b3;
+}
+
+#delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#delete-btn:hover {
+    background-color: #c82333;
+}
+/* styles.css */
+.task-completed {
+    margin-right: 10px;
+  }
+  
+  .task-completed:checked + .task-text {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-actions {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .task-actions button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px; /* Adjust icon size */
+    color: #333; /* Change icon color */
+    margin: 0 5px; /* Spacing between icons */
+  }
+  
+  .task-actions button:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+
